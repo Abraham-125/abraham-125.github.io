@@ -1,0 +1,208 @@
+/*
+div{
+    border: solid 1px red;
+}
+*/
+@font-face {
+    font-family: 'MiFuente'; /* Nombre de tu fuente */
+    src: url('font/KGRedHands.ttf') format('truetype'); /* Ruta a tu archivo .ttf */
+    /* Puedes añadir más formatos aquí si tienes diferentes versiones de la fuente */
+  }
+
+*{
+    font-family: 'MiFuente', sans-serif !important; /* Utiliza tu fuente personalizada */
+  }
+  
+
+nav{
+    background-color: #123291 !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    filter: drop-shadow(8px 8px 8px #00000072);
+}
+
+.icono-nav{
+    width: 45px;
+    padding:7px;
+    background-color:#2ba8e2;
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 2px #0e067a57);
+    margin: 0px;
+}
+
+.icono-nav:hover{
+    padding: 10px;
+    background-color: #e2992b;
+    
+
+}
+
+.offcanvas{
+    background-color: #e2992b!important;
+    color:  rgb(125, 58, 24) !important;
+    font-weight: bold !important;
+    border-left: 5px rgb(125, 65, 0) solid !important;
+    padding:0px !important;
+    border-radius: 25px 0px 0px 0px;
+
+
+}
+
+.offcanvas-header{
+    background-color: rgb(125, 65, 0) !important; 
+    color: white !important;   
+    border-radius: 20px 0px 0px 0px;
+
+}
+.img-dona{
+    filter: drop-shadow(5px 5px 5px #0e067a57);
+}
+
+.btn-primary{
+    background-color: #f49e25 !important;
+    font-weight: bold !important;
+    border: 0px !important;
+    border-radius: 15px !important;
+}
+
+.form-control{
+    background-color: rgb(243, 248, 255) !important;
+    border: 0px !important;
+    border-radius: 15px !important;
+
+}
+
+.contenedor-con-scroll {
+    /* Establece un alto máximo para el div */
+    max-height: 600px; /* ajusta según tus necesidades */
+    /* Agrega una barra de desplazamiento vertical cuando el contenido excede el alto máximo */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+h3{
+    color: rgb(152, 61, 212) ;
+}
+
+.btn-close{
+}
+
+label{
+    color: rgb(248, 210, 255);
+    
+}
+.form-check-input{
+    background-color: rgb(243, 248, 255) !important;
+    border: 0px !important;
+}
+.form-check-input:checked{
+    background-color: #f49e25 !important;
+    border:0px !important;
+}
+.popover{
+    --bs-popover-bg: #f49e25 !important;
+}
+
+.popover-body{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.toast-header{
+    background-color: #572900 !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 22px 22px 0px 0px !important;
+
+    font-weight: lighter !important;
+
+    
+    border-bottom: 1px solid rgb(0, 0, 0) !important;
+}
+.toast-body{
+    background-color: #ff9500;
+    border-radius: 25px !important;
+
+
+}
+.toast{
+    border-radius: 25px !important;
+    background-color:#ff9500 !important;
+
+}
+
+/*edia (max-width: 575px) {
+    nav {
+    }
+  }
+  */
+/* Estilo para el contenedor que contiene el contenido con desplazamiento */
+.contenedor-con-scroll::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  /* Estilo para la barra de desplazamiento en sí */
+.contenedor-con-scroll::-webkit-scrollbar-thumb {
+    background-color: #d39314; /* Color de fondo de la barra de desplazamiento */
+  }
+  
+  /* Estilo para la pista en la que se desplaza la barra de desplazamiento */
+.contenedor-con-scroll::-webkit-scrollbar-track {
+    background-color: #a8bfff; /* Color de fondo de la pista */
+  }
+  
+  
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  /* Modificar el "thumb" (la parte desplazable de la barra de desplazamiento) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #d39314; /* Color de fondo de la barra de desplazamiento */
+
+  }
+  
+  /* Modificar la pista de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background-color: #a8bfff; /* Color de fondo de la pista */
+
+  }
+  
+  /* Opcional: Ocultar la barra de desplazamiento cuando no se está desplazando */
+  /* Esto es útil para lograr un diseño más limpio */
+ 
+  
+.titulo-dona {
+    color: darkblue;
+    font-size: 12px;
+    padding: 5%;
+  }
+
+.hov-pad:hover{
+    border-radius: 15px;
+    background-color: #ffd38b;
+    cursor: pointer;
+}
+
+.btn-secundary{
+    background-color: #9a4b1d !important;
+    color: white !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.btn-secundary:hover{
+    background-color: #1626a6 !important;
+    color: white !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+
+body {
+    overflow-x: hidden; /* Ocultar el desplazamiento horizontal */
+}
+
+/* Establecer el ancho máximo para el contenido */
+.container {
+    max-width: 100vw; /* Establecer el ancho máximo igual al ancho del viewport */
+}
