@@ -230,18 +230,18 @@ function renderizarCarrito() {
                     </div>
                     <div class="col-2 col-sm-2">
 
-                        <button style="border:0px; background-color:transparent; margin-top:20px"><img src="src/btn-izq.png"></button>
+                        <button style="border:0px; background-color:transparent; margin-top:20px"><img src="btn-izq.png"></button>
                     </div>
                     <div class="col-1 col-sm-1">
                         <p style="margin-top:20px">1</p>
                     </div>
                     <div class="col-2 col-sm-2">
 
-                        <button style="border:0px; background-color:transparent;margin-top:20px "><img src="src/btn-der.png"></button>
+                        <button style="border:0px; background-color:transparent;margin-top:20px "><img src="btn-der.png"></button>
                     </div>
                     
                     <div class="col-2 col-sm-2">
-                        <button style="border:0px; background-color:transparent;margin-top:20px "><img src="src/btn-cerrar.png"></button>
+                        <button style="border:0px; background-color:transparent;margin-top:20px "><img src="btn-cerrar.png"></button>
                     </div>
                 </div>
             </div>
