@@ -5,7 +5,7 @@ div{
 */
 @font-face {
     font-family: 'MiFuente'; /* Nombre de tu fuente */
-    src: url('font/KGRedHands.ttf') format('truetype'); /* Ruta a tu archivo .ttf */
+    src: url('KGRedHands.ttf') format('truetype'); /* Ruta a tu archivo .ttf */
     /* Puedes añadir más formatos aquí si tienes diferentes versiones de la fuente */
   }
 
